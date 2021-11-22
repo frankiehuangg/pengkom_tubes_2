@@ -4,6 +4,7 @@ import numpy as np
 import os
 
 def corr():
+    print("Graphing correlation table")
     df = pd.read_csv("dfs/laptop_dfs/laptop_avg_price.csv")
     crn_df = pd.read_csv("dfs/corona_dfs/covid_19_indonesia.csv")
 
